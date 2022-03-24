@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(DataminingCourse VERSION 0.1.0)
-
+set(CMAKE_CXX_STANDARD 17)
 # include(CTest)
 # enable_testing()
-
-add_executable(DataminingCourse main.cpp)
-
+add_subdirectory(DataReader)
+add_executable(DataminingCourse main.cpp DataHandler/Trim.h)
+add_executable(find find.cpp)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)

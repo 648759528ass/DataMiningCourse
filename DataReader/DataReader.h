@@ -1,16 +1,15 @@
 #ifndef DATAREADER
 #define DATAREADER
-#include<utility>
-#include<vector>
-
-template<typename K,typename V>
+#include <utility>
+#include <vector>
+#include <set>
+#include <list>
+template<typename V>
 class DataReader
 {
-private:
-    
 public:
-    virtual vector<pair<K,vector<V>>> getData();
-    virtual ~DataReader();
+    virtual std::list<std::set<V>> getData() = 0;
+    virtual ~DataReader() = default;
 };
 
 #endif
