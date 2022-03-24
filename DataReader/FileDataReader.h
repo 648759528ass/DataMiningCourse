@@ -1,0 +1,16 @@
+//
+// Created by Mac on 22/03/2022.
+//
+
+#ifndef DATAMININGCOURSE_FILEDATAREADER_H
+#define DATAMININGCOURSE_FILEDATAREADER_H
+
+
+
+class FileDataReader {
+
+};
+
+
+
+#endif //DATAMININGCOURSE_FILEDATAREADER_H
