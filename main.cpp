@@ -5,7 +5,7 @@
 int main(int, char**) {
     clock_t loadStartTime,loadEndTime;
     loadStartTime = clock();
-    FileDataReader<int> FDR("/Users/mac/DataMiningCourse/retail.dat");
+    FileDataReader<int> FDR("retail.dat");
     auto L =  FDR.getData();
     Handler<int> hd(L);
     loadEndTime = clock();

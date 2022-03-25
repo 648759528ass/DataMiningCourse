@@ -4,6 +4,7 @@
 
 #ifndef DATAMININGCOURSE_TRIM_H
 #define DATAMININGCOURSE_TRIM_H
+
 #include <vector>
 #include <ostream>
 #include <map>
